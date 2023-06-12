@@ -1,6 +1,9 @@
-#cube {
+div {
+    position: absolute;
     width: 100px;
     height: 100px;
+}
+
+#cube {
     background-color: red;
-    position: absolute;
 }
