@@ -1,6 +1,9 @@
+import sett from "./settings.json"
+
+
 const WebSocket = require('ws');
 
-const ws = new WebSocket('ws://192.168.18.23:1337');
+const ws = new WebSocket(`ws://${sett.address}:${sett.port}`);
 
 //wysłanie danych na serwer przy podłączeniu klienta do serwera
 

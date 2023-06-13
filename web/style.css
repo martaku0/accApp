@@ -1,3 +1,7 @@
+body {
+    overflow: hidden;
+}
+
 div {
     position: absolute;
     width: 100px;
